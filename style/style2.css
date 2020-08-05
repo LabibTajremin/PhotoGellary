@@ -1,0 +1,538 @@
+.main{
+    display: flex;
+    width: 1170px;
+    position: relative;
+    right: -290px;
+
+
+}
+.menu{
+    flex: 270px;
+    padding: 15px 10px;
+    background-color:#BDBDBD;
+    font-family:cursive;
+    font-style:oblique;
+    font-size: 26px;
+
+}
+body {
+    display: block;
+    margin: 0;
+
+    font-family: cursive;
+}
+.content{
+    flex: 900px;
+    padding: 15px;
+    /*  background-color:#C8C8C8;*/
+    background-color: #EEECEC;
+    font-family:cursive;
+    height: 100%;
+    font-size: 14px;
+    overflow: hidden;
+
+
+}
+
+.imageshow a img{
+    width: 100%;
+    height: 300px;
+}
+h1 {
+    display: block;
+    font-size: 35px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.header{
+    display: block;
+    width: 1170px;
+    background-color: #00313D ;
+    color: white;
+    text-align: center;
+    height: 100px;
+    font-family:cursive;
+    font-style:oblique;
+    position: relative;
+    right: -290px;
+
+}
+.imageshow{  
+    padding:15px; 
+    color: #ECFDFF;
+    font-family:cursive;
+    font-size: 25px;
+    font-style:oblique;
+    width:33.3%;
+    float:left;
+    box-sizing:border-box; 
+    height: 50%;
+
+
+
+}
+.imageshow a{
+    display: block;
+}
+
+.imageshow .imagelabel{
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    position: relative;
+    margin-top: -52px;
+    padding: 5px;
+}
+
+#sidemenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 23px;
+}
+
+#sidemenu li a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    display: block;
+
+}
+#sidemenu li a.active {
+    background-color: #002D38;
+    color: white;
+    border: 1px solid #002D38;
+    border-radius: 10px;
+    margin: 3px;
+
+}
+#sidemenu li a:hover {
+    background-color: #002D38;
+    padding-right: 22px;
+    font-size: 26px;
+    transition: all 0.7s;
+    border-radius: 10px;
+    color:white;
+}
+
+.Submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    font-size: 15px;
+    font-family:cursive;
+    margin: 10px;
+
+}
+.login {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 27px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-size: 15px;
+    font-family: cursive;
+    margin: 10px;
+    position: absolute;
+    right: 25px;
+    top: 15px;
+
+
+}
+.container{
+    width:1170px;
+    margin:0 auto;
+}
+.logout {
+    background-color: red;
+    color: white;
+    padding: 15px 26px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    font-size: 13px;
+    font-family: cursive;
+    margin: 10px;
+    position: absolute;
+    right: 25px;
+    top: 15px;
+
+}
+.username{
+
+    width: 110px;
+    height: 33px;
+    color: white;
+    background: rgba(65, 105, 225,0.2);
+    position: absolute;
+    border-radius: 5px;
+    padding-top: 16px;
+    padding-right: 4px;
+    right: 113px;
+    font-family: cursive;
+    font-style: oblique;
+    text-align: center;
+    font-size: 15px;
+    top: 25px;
+}
+input[type=Submit]:hover {
+    background-color: #DBDBDB;
+    color: black;
+    
+    align-content: left;
+}
+input[type=text], file, password {
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #DBDBDB;
+    resize: vertical;
+}
+#password{
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #DBDBDB;
+    resize: vertical; 
+}
+#pass{
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #DBDBDB;
+    float:left;
+    resize: vertical; 
+}
+#uname{
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #DBDBDB;
+    float:left;
+    resize: vertical;  
+
+}
+.Edit{
+    background-color: cyan;
+    color: white;
+    padding: 9px 0px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 170px;
+    float: right;
+    font-size: 24px;
+    font-family: cursive;
+    /* margin: 10px; */
+    position: relative;
+    margin-top: -63px;
+    margin-right: 49px;
+    transition: all 0.5s;
+    cursor: pointer;
+
+
+}
+
+.usertable{
+    width: 100%;
+    overflow: scroll;
+}
+.Edit span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.Edit span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.Edit:hover span {
+    padding-right: 25px;
+}
+
+.Edit:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/*.msg{
+    text-align: center;
+    width: 50%;
+    
+}*/
+.success{
+    text-align: center;
+    width: 400px;
+    height: 40px;
+    border-radius: 6px;
+    background: greenyellow;
+    margin: 0 auto;
+}
+.failed{
+    text-align: center;
+    width: 400px;
+    height: 40px;
+    border-radius: 6px;
+    background: red;
+    margin: 0 auto;
+}
+.selection {
+    position: relative;
+    font-family:cursive;
+    width:200px;
+    text-align:start;
+
+}
+.selection select {
+    /* display: none; */
+    width: 200px;
+    height: 35px;
+    background: gray;
+    border: black;
+    /* padding: 10px; */
+    /* padding-right: 15px; */
+    padding-left: 30px;
+    font-family:cursive;
+    color:white;
+}
+.selection input{
+    font-family:cursive;
+}
+
+.footer{
+    display: block;
+    background-color: #00313D ;
+    color: white;
+    text-align: center;
+    width: 1170px;
+    height: 75px; 
+    position: relative;
+    right: -290px;
+}
+.al_name{
+    font-family:cursive;
+
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 5px;
+    font-family: cursive;
+    font-style: oblique;
+    font-size: 11px;
+    border-radius: 5px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.Cancel{
+    background-color: red;
+    color: white;
+    padding: 16px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    font-size: 15px;
+    font-family:cursive;
+    margin: 10px;
+}
+#img_url {
+    background: #ddd;
+    width:120px;
+    height: 100px;
+    display: block;
+}
+#img_urlgl {
+    background: #ddd;
+    width:500px;
+    height: 300px;
+    display: block;
+}
+.Create{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 23px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    font-size: 13px;
+    font-family: cursive;
+    margin: 15px;
+}
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.dltbtn {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 3px 9px;;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 0 1px;
+    font-size: 9px;
+}
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+/* Darker background on mouse-over */
+.btn:hover {
+    border-radius: 5px;
+    background-color: RoyalBlue;
+}
+.dltbtn:hover {
+    border-radius: 5px;
+    background-color: #990000;
+}
+.uphoto img{
+    width: 50px;
+    height: 52px;
+    border-radius: 50%;
+
+}
+.uphoto{
+    top: 25px;
+    right: 200px;
+    position: absolute;
+}
+.pagetitle{
+
+    text-align: center;
+}
+.username a{
+    text-decoration: none;
+    color: white;
+}
+.profileimage img{
+    width: 200px;
+    height: 250px;
+    border-radius: 30%;
+}
+.center-content{
+    text-align: right;
+}
+.pagination{
+    display: inline-block;
+}
+.pagenumber{
+    width: 130px;
+    text-align: center;
+    color: #680000;
+    font-size: 15px;
+
+    /*    margin: 0 auto;*/
+}
+.logincard{
+    height: 260px;
+    margin-bottom: 37px;
+    margin-top: 23px;
+    color: white;
+    width: 433px;
+    padding-left: 20px;
+    padding-top: 14px;
+    background: #00313D;
+    border-radius: 45px;
+    text-align: center;
+    position: relative;
+    right: -205px;
+}
+.log {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    float: left;
+    font-size: 15px;
+    position: relative;
+    right: -238px;
+    top: -4px;
+    font-family: cursive;
+    margin: 10px;
+}
+label#unamel {
+    position: relative;
+    right: 23px;
+    font-size: 15px;
+}
+
+.logincard #uname,#pass{
+    margin: 10px;
+
+}
+.loginview{
+    text-align: center;
+}
+.al_images{
+    width: 100%;
+
+}
+.images{
+    width: 33.3%;
+}
+h2 {
+    text-align: center;
+    font-size: 31px;
+    position: relative;
+    top: -15px;
+}
+form {
+    padding: 9px;
+    margin-left: 40px;
+}
